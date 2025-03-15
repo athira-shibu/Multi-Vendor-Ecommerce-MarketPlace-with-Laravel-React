@@ -45,7 +45,9 @@
         ],
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
-        ]
+        ],
+        "dev": "npm run dev",
+        "build": "npm run build"
     },
     "extra": {
         "laravel": {
