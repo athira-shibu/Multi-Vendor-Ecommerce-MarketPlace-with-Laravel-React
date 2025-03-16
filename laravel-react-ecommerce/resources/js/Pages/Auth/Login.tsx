@@ -41,7 +41,7 @@ export default function Login({ status, canResetPassword }: { status?: string, c
                         type="email"
                         name="email"
                         value={data.email}
-                        className="mt-1 block w-full"
+                        className="mt-1 block w-full bg-white text-black border border-gray-300"
                         autoComplete="username"
                         isFocused={true}
                         onChange={(e) => setData('email', e.target.value)}
@@ -58,7 +58,7 @@ export default function Login({ status, canResetPassword }: { status?: string, c
                         type="password"
                         name="password"
                         value={data.password}
-                        className="mt-1 block w-full"
+                        className="mt-1 block w-full bg-white text-black border border-gray-300"
                         autoComplete="current-password"
                         onChange={(e) => setData('password', e.target.value)}
                     />
@@ -81,7 +81,7 @@ export default function Login({ status, canResetPassword }: { status?: string, c
                     {canResetPassword && (
                         <Link
                             href={route('password.request')}
-                            className="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                            className="text-gray-600 hover:text-gray-900 link focus:ring-indigo-500"
                         >
                             Forgot your password?
                         </Link>
