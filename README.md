@@ -7,3 +7,4 @@
 <h6>Pest for Testing</h6>
 <h6>Inertia</h6>
 <h6>Tailwind CSS</h6>
+<h6>DaisyUI</h6>
